@@ -1,0 +1,20 @@
+.title {
+    color: #FFFFFF;
+}
+
+
+.hero {
+    font-family: "Roboto", sans-serif;
+    background-color: #7C4DFF;
+    display: flex;
+    justify-content: space-between;
+    font-size: .7rem;
+    min-height: 50px;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.hero__content {
+    display: flex;
+    gap: 10px;
+}
