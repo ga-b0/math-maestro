@@ -1,7 +1,15 @@
 .footer {
-    background-color: brown;
+    background-color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
     /* min-height: 50px; */
+}
+
+.footer__container {
+    display: flex;
+    gap: 10px;
 }

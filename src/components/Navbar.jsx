@@ -1,6 +1,7 @@
 import '../styles/navbar.css'
 import calculator from '../assets/calculator.svg';
 import menu from '../assets/menu.svg';
+import { Link } from 'react-router-dom';
 
 export function Navbar(){
     return(
