@@ -23,6 +23,10 @@
     border-radius: 10px;
     text-decoration: none;
     background-color: #FFFFFF;
+    cursor: pointer;
+}
+.content__button:hover {
+    background-color: #7C4DFF;
 }
 
 .content_paragraph {

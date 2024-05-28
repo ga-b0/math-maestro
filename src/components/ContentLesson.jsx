@@ -1,6 +1,7 @@
 import '../styles/lesson.css'
 import preguntas from '../resources/EcuacionesQuizz'
 import { useState } from 'react'
+import confetti from 'canvas-confetti'
 
 export function ContentLesson({children, images, title}) {
 
@@ -21,6 +22,7 @@ export function ContentLesson({children, images, title}) {
 
         setTimeout(() => {
             if (preguntaActual === preguntas.length - 1) {
+                confetti()
                 setIsFinished(true)
             } else {
                 setPreguntaActual(preguntaActual + 1)
@@ -38,8 +40,8 @@ export function ContentLesson({children, images, title}) {
         return (
             <div className='quizz'>
                 <div className='juego-terminado'>
-                    <span>Obtuviste {puntuacion} de {preguntas.length}{" "}</span>
-                    <button onClick={() => resetGame()}>Volver a jugar</button>
+                    <span className='juego-terminado-title'>Obtuviste {puntuacion} de {preguntas.length}{" "}</span>
+                    <button onClick={() => resetGame()} className='button--reset'>Volver a jugar</button>
                 </div>
             </div>
         )
@@ -78,7 +80,7 @@ export function ContentLesson({children, images, title}) {
                         <div className='quiz'>
                             <div className='quiz__izquierdo'>
                                 <div className='numero__pregunta'>
-                                    <span>Pregunta {preguntaActual + 1} de </span>{preguntas.length}
+                                    <span className='quizz__number'>Pregunta {preguntaActual + 1} de {preguntas.length}</span>
                                 </div>
                                 <div className='titulo__pregunta'>{preguntas[preguntaActual].titulo}</div>
                             </div>

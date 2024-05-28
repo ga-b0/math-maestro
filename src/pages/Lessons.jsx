@@ -9,9 +9,9 @@ export function Lessons(){
     return(
         <>
         <Navbar></Navbar>
-        <Card title="Aritmetica" textButton="Start Learning" logo={aritmetica}></Card>
-        <Card title="Algebra" textButton="Start Learning" logo={algebra}></Card>
-        <Card title="Geometría" textButton="Start Learning" logo={geometria}></Card>
+        <Card title="Aritmetica" textButton="Empieza a aprender" logo={aritmetica}></Card>
+        <Card title="Algebra" textButton="Empieza a aprender" logo={algebra}></Card>
+        <Card title="Geometría" textButton="Empieza a aprender" logo={geometria}></Card>
         <Footer></Footer>
         </>
     )    

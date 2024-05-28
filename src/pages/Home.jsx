@@ -10,9 +10,9 @@ export function Home(){
     return(
         <>
             <Navbar></Navbar>
-            <Card textButton="Start Learning" title="Lessons" logo={lessons}>Bite-sized math concepts</Card>
-            <Card textButton="View Achievements" title="Achievements" logo={trophy}>Earn badges and rewards</Card>
-            <Card textButton="Check Progress" title="Progress" logo={progress}>Track your learning journey</Card>
+            <Card textButton="Empieza a aprender" title="Lecciones" logo={lessons}>Conceptos matemáticos en trocitos</Card>
+            <Card textButton="Mira tus logros" title="Logros" logo={trophy}>Gana insignias y recompensas</Card>
+            <Card textButton="Comprobar el progreso" title="Progreso" logo={progress}>Siga su viaje de aprendizaje</Card>
             <Footer></Footer>
         </>
     )
