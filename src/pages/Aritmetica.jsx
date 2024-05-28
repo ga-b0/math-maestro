@@ -1,7 +1,15 @@
+import { Navbar } from '../components/Navbar.jsx'
+import { Footer } from '../components/Footer.jsx'
+import { TargetLesson } from '../components/TargetLesson.jsx'
+import aritmetica from '../assets/aritmetica.svg'
+
+
 export function Aritmetica(){
     return(
         <>
-            <h1>Aritmetica</h1>
+            <Navbar></Navbar>
+            <TargetLesson title="Aritmetica" themes={["Equations", "Functions"]} logo={aritmetica}>Algebra</TargetLesson>
+            <Footer></Footer>
         </>
     )
 }

@@ -1,0 +1,29 @@
+.section__container {
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 20px; */
+    align-items: center;
+    text-align: center;
+}
+
+.section__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+}
+
+.section__item {
+    font-family: "Roboto", sans-serif;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.section__image {
+    width: 80px;
+}
+

@@ -1,0 +1,141 @@
+.content__section {
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 1000px;
+}
+
+.content__title {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.content__subtitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.content__paragraph {
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+.content_ecuation {
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+    box-shadow: 5px 5px black;
+}
+
+.quiz {
+    background-color: #252d4a;
+    width: 100%;
+    height: min-content;
+    margin: 50px 0;
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  
+  .quiz__izquierdo {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .pregunta-numero {
+    margin-bottom: 20px;
+  }
+  
+  .pregunta-numero span {
+    font-size: 28px;
+  }
+  
+  .pregunta-titulo {
+    margin-bottom: 12px;
+  }
+  
+  .quiz__derecho {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .juego-terminado {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 24px;
+    align-items: center;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #252d4a;
+    border-radius: 15px;
+    display: flex;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 5px solid #234668;
+    cursor: pointer;
+  }
+  
+  .tiempo-restante {
+    font-size: 14px;
+    color: #fcbf3d;
+    margin-bottom: 20px;
+  }
+  
+  .correct,
+  .correct:hover {
+    background-color: #2f922f;
+  }
+  
+  .incorrect,
+  .incorrect:hover {
+    background-color: #ff3333;
+  }
+  
+  .btns-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  button:hover {
+    background-color: #234668;
+  }
+  
+  button[disabled] {
+    background-color: #555e7d;
+    color: #ffffff;
+    cursor: not-allowed;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button svg {
+    margin-right: 5px;
+  }

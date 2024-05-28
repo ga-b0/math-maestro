@@ -7,10 +7,12 @@ export function Navbar(){
     return(
         <>
         <header className='hero'>
-            <div className='hero__content'>
-                <img src={calculator} alt="Calculadora" />
-                <h1 className='title'>Math Maestro</h1>
-            </div>
+            <Link to="/">
+                <div className='hero__content'>
+                    <img src={calculator} alt="Calculadora" />
+                    <h1 className='title'>Math Maestro</h1>
+                </div>
+            </Link>
             <img src={menu} alt="Barra de navegación" />
         </header>
         </>

@@ -7,6 +7,7 @@ import { Home } from "./pages/Home";
 import { Aritmetica } from "./pages/Aritmetica";
 import { Geometria } from "./pages/Geometria";
 import { Algebra } from "./pages/Algebra";
+import { Ecuaciones } from "./pages/Algebra/Ecuaciones";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         </Route>
         <Route path="/lessons/aritmetica" element={<Aritmetica />} />
         <Route path="/lessons/algebra" element={<Algebra />} />
+        <Route path="/lessons/algebra/ecuaciones" element={<Ecuaciones />} />
         <Route path="/lessons/geometria" element={<Geometria />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="/progress" element={<Progress />} />
