@@ -27,6 +27,21 @@ export function Card({children, logo, textButton, title}){
                 <button className='content__button'>{textButton}</button>
                 </Link>
             )}
+            {mainTitle === "Aritmetica" && (
+                <Link to="/lessons/aritmetica">
+                <button className='content__button'>{textButton}</button>
+                </Link>
+            )}
+            {mainTitle === "Algebra" && (
+                <Link to="/lessons/algebra">
+                <button className='content__button'>{textButton}</button>
+                </Link>
+            )}
+            {mainTitle === "Geometría" && (
+                <Link to="/lessons/geometria">
+                <button className='content__button'>{textButton}</button>
+                </Link>
+            )}
         </section>
         </>
     )
